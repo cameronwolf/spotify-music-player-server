@@ -49,7 +49,7 @@ app.get('/authorized', (req, res) => {
       form: {
         grant_type: 'authorization_code',
         code: code,
-        redirect_uri: 'http://localhost:8080/test',
+        redirect_uri: 'http://localhost:8080/authorized',
         client_id: CLIENT_ID,
         client_secret: CLIENT_SECRET
       },
@@ -127,13 +127,57 @@ app.get('/getPlayback', (req, res) => {
   res.json(playback.getList());
 });
 
-app.get('/searchTrack', (req, res) => {
+app.get('/search', (req, res) => {
+  const searchCriteria = req.query.query;
+  const searchType = req.query.type;
+  const options = {
+    method: 'GET',
+    uri: `${getBaseUrl('api')}/v1/search`+
+    `?q=${searchCriteria}`+
+    `&type=${searchType}&`+
+    `market=US`,
+    headers: {
+      Authorization: `Bearer ${accessToken}`
+    },
+    json: true
+  };
+  rp(options)
+    .then(response => {
+      res.json(response);
+    })
+    .catch(error => {
+      console.error(error.error);
+    });
+});
+
+app.get('/searchAlbum', (req, res) => {
   const searchCriteria = req.query.query;
   const options = {
     method: 'GET',
     uri: `${getBaseUrl('api')}/v1/search`+
     `?q=${searchCriteria}`+
-    `&type=track&`+
+    `&type=album&`+
+    `market=US`,
+    headers: {
+      Authorization: `Bearer ${accessToken}`
+    },
+    json: true
+  };
+  rp(options)
+    .then(response => {
+      res.json(response);
+    })
+    .catch(error => {
+      console.error(error.error);
+    });
+});
+
+app.get('/getTracks', (req, res) => {
+  const id = req.query.albumId;
+  const options = {
+    method: 'GET',
+    uri: `${getBaseUrl('api')}/v1/albums/${id}/tracks`+
+    `?type=album&`+
     `market=US`,
     headers: {
       Authorization: `Bearer ${accessToken}`
