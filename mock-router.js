@@ -1,9 +1,12 @@
 'use strict';
 const router = require('express').Router();
 const trackRes = require('./track-search-res.json');
+const albumRes = require('./album-search-res.json');
+const artistRes = require('./artist-search-res.json');
+const albumTracks = require('./album-tracks-res.json');
 
 router.get('/authorize', (req, res) => {
-  res.redirect('/test?code=AQDDV-sBSKUpPOZXBmryKCH7uWpnuKidAq8moHgkf_hAHO6E5c4Bs0AAB6PJ-OLAveQtEQ-n2fGx4WIwk7cuuSIHYNlOTWZ9tELwamEyNuOjw2Db9yuEfsryagzMkw7u6ssr9QsDTMEywyglLDng49_NgRTTUukGwQ0cScbJ8_gRCQzop_2F-cwDIYzPhiTYY98xVYdfTzLkJ-xMx6hKsr3MiXLlWF3ECnxUMw');
+  res.redirect('/authorized?code=AQDDV-sBSKUpPOZXBmryKCH7uWpnuKidAq8moHgkf_hAHO6E5c4Bs0AAB6PJ-OLAveQtEQ-n2fGx4WIwk7cuuSIHYNlOTWZ9tELwamEyNuOjw2Db9yuEfsryagzMkw7u6ssr9QsDTMEywyglLDng49_NgRTTUukGwQ0cScbJ8_gRCQzop_2F-cwDIYzPhiTYY98xVYdfTzLkJ-xMx6hKsr3MiXLlWF3ECnxUMw');
 });
 router.post('/api/token', (req, res) => {
   res.json({
@@ -24,10 +27,25 @@ router.put('/v1/me/player/play', (req, res) => {
   res.sendStatus(204);
 });
 router.get('/v1/search', (req, res) => {
-  res.json(trackRes);
+  const type = req.query.type;
+  if(type === 'track'){
+    res.json(trackRes);
+  }
+  else if(type === 'album'){
+    res.json(albumRes);
+  }
+  else if(type === 'artist'){
+    res.json(artistRes);
+  }
+  else {
+    res.json({error: 'need to specify type'})
+  }
 });
 router.put('/v1/me/player/volume', (req, res) => {
   res.sendStatus(204);
+});
+router.get(`/v1/albums/:albumId/tracks`, (req,res) => {
+  res.json(albumTracks);
 });
 
 module.exports = router;

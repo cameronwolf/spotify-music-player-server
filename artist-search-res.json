@@ -1,0 +1,439 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=Zedd&type=artist&market=US&offset=0&limit=20",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2qxJFvFYMEDqd7ui6kSAcq"
+        },
+        "followers": {
+          "href": null,
+          "total": 2924518
+        },
+        "genres": [
+          "complextro",
+          "dance pop",
+          "edm",
+          "german techno",
+          "pop",
+          "post-teen pop",
+          "tropical house"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2qxJFvFYMEDqd7ui6kSAcq",
+        "id": "2qxJFvFYMEDqd7ui6kSAcq",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/53ae37044fce1e705821cc1ce588e6704fdb9ed0",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/acf7a280cfdc4998fcbd8024ccb73e91efd1f7f3",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/f6209e3074eff5457beeff515fd290908cfca931",
+            "width": 160
+          }
+        ],
+        "name": "Zedd",
+        "popularity": 85,
+        "type": "artist",
+        "uri": "spotify:artist:2qxJFvFYMEDqd7ui6kSAcq"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5QSi5WCCQDUyKcxGVKcxw8"
+        },
+        "followers": {
+          "href": null,
+          "total": 4
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5QSi5WCCQDUyKcxGVKcxw8",
+        "id": "5QSi5WCCQDUyKcxGVKcxw8",
+        "images": [],
+        "name": "Zedd Rush",
+        "popularity": 21,
+        "type": "artist",
+        "uri": "spotify:artist:5QSi5WCCQDUyKcxGVKcxw8"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7B6odn0UGgVlfqE9tyiupN"
+        },
+        "followers": {
+          "href": null,
+          "total": 2
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7B6odn0UGgVlfqE9tyiupN",
+        "id": "7B6odn0UGgVlfqE9tyiupN",
+        "images": [],
+        "name": "Zedd Rush",
+        "popularity": 15,
+        "type": "artist",
+        "uri": "spotify:artist:7B6odn0UGgVlfqE9tyiupN"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6YNW60JPM1JacKbn2hfKdL"
+        },
+        "followers": {
+          "href": null,
+          "total": 32
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6YNW60JPM1JacKbn2hfKdL",
+        "id": "6YNW60JPM1JacKbn2hfKdL",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/c98161fbf45464956b3ce10fa8542c7b252252c5",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/2ef7681c796e6c28813ebb5fb83fda2ba307f144",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/67e33a3d6d9f9f6195397c7bd10d75d0555be28b",
+            "width": 64
+          }
+        ],
+        "name": "Zedd",
+        "popularity": 4,
+        "type": "artist",
+        "uri": "spotify:artist:6YNW60JPM1JacKbn2hfKdL"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1pEPXBRy2VtAnXJPgBSffh"
+        },
+        "followers": {
+          "href": null,
+          "total": 1
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/1pEPXBRy2VtAnXJPgBSffh",
+        "id": "1pEPXBRy2VtAnXJPgBSffh",
+        "images": [],
+        "name": "Zedd",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:1pEPXBRy2VtAnXJPgBSffh"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3qQYwFkyp3zEn6XkcvNcdx"
+        },
+        "followers": {
+          "href": null,
+          "total": 26
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3qQYwFkyp3zEn6XkcvNcdx",
+        "id": "3qQYwFkyp3zEn6XkcvNcdx",
+        "images": [],
+        "name": "Zedd",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:3qQYwFkyp3zEn6XkcvNcdx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4BXG7pXGp9ubN7pqbHMiI0"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4BXG7pXGp9ubN7pqbHMiI0",
+        "id": "4BXG7pXGp9ubN7pqbHMiI0",
+        "images": [],
+        "name": "Zedd",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:4BXG7pXGp9ubN7pqbHMiI0"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6YEC6SgyTfRuiXNIz4BrIb"
+        },
+        "followers": {
+          "href": null,
+          "total": 1
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6YEC6SgyTfRuiXNIz4BrIb",
+        "id": "6YEC6SgyTfRuiXNIz4BrIb",
+        "images": [],
+        "name": "Zedd",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6YEC6SgyTfRuiXNIz4BrIb"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6PU04j6aeUUP0AkjRAN1ag"
+        },
+        "followers": {
+          "href": null,
+          "total": 27
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6PU04j6aeUUP0AkjRAN1ag",
+        "id": "6PU04j6aeUUP0AkjRAN1ag",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/166d6389485836e67f659d2c5d3d5a33fbb087c0",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/6014067ca90aa304565f23d6fbdf908c7052106b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/c93d5eaec281a31aafd073f8d77be9b55347b538",
+            "width": 64
+          }
+        ],
+        "name": "Zedd Ative",
+        "popularity": 22,
+        "type": "artist",
+        "uri": "spotify:artist:6PU04j6aeUUP0AkjRAN1ag"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5IzLE3fKAl92w1v3wa0ThY"
+        },
+        "followers": {
+          "href": null,
+          "total": 6
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5IzLE3fKAl92w1v3wa0ThY",
+        "id": "5IzLE3fKAl92w1v3wa0ThY",
+        "images": [],
+        "name": "Zedd A",
+        "popularity": 16,
+        "type": "artist",
+        "uri": "spotify:artist:5IzLE3fKAl92w1v3wa0ThY"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5PezraDLZZgu2A6T1wXTZO"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/5PezraDLZZgu2A6T1wXTZO",
+        "id": "5PezraDLZZgu2A6T1wXTZO",
+        "images": [],
+        "name": "Lilia Zedd",
+        "popularity": 11,
+        "type": "artist",
+        "uri": "spotify:artist:5PezraDLZZgu2A6T1wXTZO"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3inUp4YWNj0hqGgwJt7CFT"
+        },
+        "followers": {
+          "href": null,
+          "total": 1
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3inUp4YWNj0hqGgwJt7CFT",
+        "id": "3inUp4YWNj0hqGgwJt7CFT",
+        "images": [],
+        "name": "Jean Zedd",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:3inUp4YWNj0hqGgwJt7CFT"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2AEUsyXFQxf3PtswW4SnTn"
+        },
+        "followers": {
+          "href": null,
+          "total": 17
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/2AEUsyXFQxf3PtswW4SnTn",
+        "id": "2AEUsyXFQxf3PtswW4SnTn",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/351681af23ae983abac5a361e8490e167b8aecc8",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/1465e4f1beb1e4bcfd3536d8f2514d40156a2cd6",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/39be9fe1d38753197fc91af7d2472c7b026bef7b",
+            "width": 64
+          }
+        ],
+        "name": "Zedd Pm",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:2AEUsyXFQxf3PtswW4SnTn"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0x2AMaDKbYJ8KL6FEMko7A"
+        },
+        "followers": {
+          "href": null,
+          "total": 2
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/0x2AMaDKbYJ8KL6FEMko7A",
+        "id": "0x2AMaDKbYJ8KL6FEMko7A",
+        "images": [],
+        "name": "Flo Zedd",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:0x2AMaDKbYJ8KL6FEMko7A"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6aWhxR6xosqKoq0Rrt47T5"
+        },
+        "followers": {
+          "href": null,
+          "total": 2
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6aWhxR6xosqKoq0Rrt47T5",
+        "id": "6aWhxR6xosqKoq0Rrt47T5",
+        "images": [],
+        "name": "Alissa Zedd",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6aWhxR6xosqKoq0Rrt47T5"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6D8BsflL2tZteDtEfdFYhI"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/6D8BsflL2tZteDtEfdFYhI",
+        "id": "6D8BsflL2tZteDtEfdFYhI",
+        "images": [],
+        "name": "Jehan Zedd",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:6D8BsflL2tZteDtEfdFYhI"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/60qJhg36TbEh6CCTJlz22g"
+        },
+        "followers": {
+          "href": null,
+          "total": 12
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/60qJhg36TbEh6CCTJlz22g",
+        "id": "60qJhg36TbEh6CCTJlz22g",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/682fc99d6a6ecd81ce25c515904696a109379a28",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/e776458be0733d7a3dcc87f3838da9539a6dfc2b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/615dd7c3c8fec5166ca631f2939aae11330a6f0a",
+            "width": 64
+          }
+        ],
+        "name": "Zedd TheGypsy",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:60qJhg36TbEh6CCTJlz22g"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/3W4V5lAGDwzR8WboHQMM5V"
+        },
+        "followers": {
+          "href": null,
+          "total": 0
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/3W4V5lAGDwzR8WboHQMM5V",
+        "id": "3W4V5lAGDwzR8WboHQMM5V",
+        "images": [],
+        "name": "Invader Zedd",
+        "popularity": 0,
+        "type": "artist",
+        "uri": "spotify:artist:3W4V5lAGDwzR8WboHQMM5V"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4EzZLjfULt58ChBvsKmz1v"
+        },
+        "followers": {
+          "href": null,
+          "total": 15
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/4EzZLjfULt58ChBvsKmz1v",
+        "id": "4EzZLjfULt58ChBvsKmz1v",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/c31fd332a9c090065ca99c9e4ed92014efbc5e68",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/aba3d5785111534a1fb39c81daf487ffb09461f8",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/4384deb50b3bca4c539bdf671c9d9e1f9c79067d",
+            "width": 64
+          }
+        ],
+        "name": "Rory Zedd & the Last Mohican",
+        "popularity": 1,
+        "type": "artist",
+        "uri": "spotify:artist:4EzZLjfULt58ChBvsKmz1v"
+      }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 19
+  }
+}
